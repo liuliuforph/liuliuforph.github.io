@@ -2,7 +2,7 @@
 = Liu Liu
 
 ~~~
-{}{img_left}{./photo-me.jpg}{photo}{280px}{280px}{}
+{}{img_left}{./photo-me.jpg}{photo}{200px}{200px}{}
 
 Ph.D student \n
 Member of the [http://wncg.org/  Wireless Networking and Communications Group] \n
@@ -11,18 +11,12 @@ The University of Texas at Austin \n
 
 ~~~
 
-== About me
+== About Me
 I am a Ph.D student in the ECE department of The University of Texas at Austin.
 I am fortunately advised by [http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html Prof. Constantine Caramanis].
 My research interests are in statistical machine learning and large scale optimization. 
 
 Before moving to Austin, I received the BE degree from Department of Electronic Engineering, Tsinghua University, Beijing, China, in 2016.
-
-
-== Contact
-
-- Email: liuliuforph \[at\] gmail \[dot\] com \n
-- [https://scholar.google.com.hk/citations?user=hP8aSTAAAAAJ/ Google Scholar Profile]
 
 \n
 
@@ -30,6 +24,7 @@ Before moving to Austin, I received the BE degree from Department of Electronic 
 {}{raw}
 <a name="research">
 ~~~
+
 == Publications and Preprints
 ~~~
 {}{raw}
@@ -65,3 +60,15 @@ ArXiv preprint arXiv:1805.08920, 2018. \[[https://arxiv.org/abs/1805.08920  Arxi
 - *See abstract*
 -- We present a novel inference framework for convex empirical risk minimization, using approximate stochastic Newton steps. The proposed algorithm is based on the notion of finite differences and allows the approximation of a Hessian-vector product from first-order information. In theory, our method efficiently computes the statistical error covariance in M-estimation, both for unregularized convex learning problems and high-dimensional LASSO regression, without using exact second order information, or resampling the entire data set. In practice, we demonstrate the effectiveness of our framework on large-scale machine learning problems, that go even beyond convexity: as a highlight, our work can be used to detect certain adversarial attacks on neural networks.
 
+
+
+\n
+\n
+
+~~~
+
+== Contact
+
+- Email: liuliuforph \[at\] gmail \[dot\] com \n
+- [https://scholar.google.com.hk/citations?user=hP8aSTAAAAAJ/ Google Scholar Profile]
+~~~
