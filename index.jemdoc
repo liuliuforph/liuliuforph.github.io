@@ -1,23 +1,67 @@
-# jemdoc: menu{MENU}{BIO.html}, nofooter
-== Liu Liu
+# jemdoc: menu{MENU}{index.html}, addcss{mktree.css}, nofooter
+= Liu Liu
 
 ~~~
 {}{img_left}{./photo-me.jpg}{photo}{280px}{280px}{}
 
-PhD student \n
+Ph.D student \n
 Member of the [http://wncg.org/  Wireless Networking and Communications Group] \n
 Department of [http://www.ece.utexas.edu/ Electrical and Computer Engineering] \n
 The University of Texas at Austin \n
 
-Email: liuliuforph \[at\] gmail \[dot\] com \n
-[https://scholar.google.com.hk/citations?user=hP8aSTAAAAAJ/ Google Scholar Profile]
 ~~~
 
 == About me
-I am a PhD student in the ECE department of The University of Texas at Austin.
+I am a Ph.D student in the ECE department of The University of Texas at Austin.
 I am fortunately advised by [http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html Prof. Constantine Caramanis].
 My research interests are in statistical machine learning and large scale optimization. 
 
 Before moving to Austin, I received the BE degree from Department of Electronic Engineering, Tsinghua University, Beijing, China, in 2016.
 
+
+== Contact
+
+- Email: liuliuforph \[at\] gmail \[dot\] com \n
+- [https://scholar.google.com.hk/citations?user=hP8aSTAAAAAJ/ Google Scholar Profile]
+
+\n
+
+~~~
+{}{raw}
+<a name="research">
+~~~
+== Publications and Preprints
+~~~
+{}{raw}
+<script type="text/javascript" language="JavaScript" src="mktree.js"></script>
+<p class="jshide" id="jsonly"> 
+<a href="#" onclick="expandTree('tree1'); return false;">Expand all abstracts</a>&nbsp;&nbsp;
+<a href="#" onclick="collapseTree('tree1'); return false;">Collapse all abstracts</a></p>
+~~~
+
+
+{{<div class="mktree" id="tree1">}}
+
+*High Dimensional Robust Sparse Regression*\n
+*Liu Liu*, Yanyao Shen, Tianyang Li, Constantine Caramanis.\n
+ArXiv preprint arXiv:1805.11643, 2018. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[https://arxiv.org/pdf/1805.11643.pdf  Arxiv PDF]\]
+- *See abstract*
+-- We provide a novel--and to the best of our knowledge, the first--algorithm for high dimensional sparse regression with corruptions in explanatory and/or response variables. Our algorithm recovers the true sparse parameters in the presence of a constant fraction of arbitrary corruptions. Our main contribution is a robust variant of Iterative Hard Thresholding. Using this, we provide accurate estimators with sub-linear sample complexity. Our algorithm consists of a novel randomized outlier removal technique for robust sparse mean estimation that may be of interest in its own right: it is orderwise more efficient computationally than existing algorithms, and succeeds with high probability, thus making it suitable for general use in iterative algorithms. We demonstrate the effectiveness on large-scale sparse regression problems with arbitrary corruptions.
+
+\n
+
+*Statistical inference using SGD*\n
+Tianyang Li, *Liu Liu*, Anastasios Kyrillidis, Constantine Caramanis.\n
+Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] \[[https://arxiv.org/pdf/1705.07477.pdf  Arxiv PDF]\]
+- *See abstract*
+-- We present a novel method for frequentist statistical inference in M-estimation problems, based on stochastic gradient descent (SGD) with a fixed step size: we demonstrate that the average of such SGD sequences can be used for statistical inference, after proper scaling. An intuitive analysis using the Ornstein-Uhlenbeck process suggests that such averages are asymptotically normal. From a practical perspective, our SGD-based inference procedure is a first order method, and is well-suited for large scale problems. To show its merits, we apply it to both synthetic and real datasets, and demonstrate that its accuracy is comparable to classical statistical methods, while requiring potentially far less computation.
+
+\n
+
+
+*Approximate Newton-based statistical inference using only stochastic gradients*\n
+Tianyang Li, Anastasios Kyrillidis, *Liu Liu*, Constantine Caramanis.\n
+ArXiv preprint arXiv:1805.08920, 2018. \[[https://arxiv.org/abs/1805.08920  Arxiv Link]\] \[[https://arxiv.org/pdf/1805.08920.pdf  Arxiv PDF]\]
+- *See abstract*
+-- We present a novel inference framework for convex empirical risk minimization, using approximate stochastic Newton steps. The proposed algorithm is based on the notion of finite differences and allows the approximation of a Hessian-vector product from first-order information. In theory, our method efficiently computes the statistical error covariance in M-estimation, both for unregularized convex learning problems and high-dimensional LASSO regression, without using exact second order information, or resampling the entire data set. In practice, we demonstrate the effectiveness of our framework on large-scale machine learning problems, that go even beyond convexity: as a highlight, our work can be used to detect certain adversarial attacks on neural networks.
 
