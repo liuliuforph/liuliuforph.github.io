@@ -39,7 +39,7 @@ Before moving to Austin, I received the B.E. degree from Department of Electroni
 
 *High Dimensional Robust Sparse Regression*\n
 *Liu Liu*, Yanyao Shen, Tianyang Li, Constantine Caramanis.\n
-ArXiv preprint arXiv:1805.11643, 2018. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[https://arxiv.org/pdf/1805.11643.pdf  Arxiv PDF]\]
+ArXiv preprint arXiv:1805.11643, 2018. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[https://arxiv.org/pdf/1805.11643.pdf  Arxiv PDF]\] \[[./Simons_Lightning.pdf Slides]\]
 - *See abstract*
 -- We provide a novel--and to the best of our knowledge, the first--algorithm for high dimensional sparse regression with corruptions in explanatory and/or response variables. Our algorithm recovers the true sparse parameters in the presence of a constant fraction of arbitrary corruptions. Our main contribution is a robust variant of Iterative Hard Thresholding. Using this, we provide accurate estimators with sub-linear sample complexity. Our algorithm consists of a novel randomized outlier removal technique for robust sparse mean estimation that may be of interest in its own right: it is orderwise more efficient computationally than existing algorithms, and succeeds with high probability, thus making it suitable for general use in iterative algorithms. We demonstrate the effectiveness on large-scale sparse regression problems with arbitrary corruptions.
 
