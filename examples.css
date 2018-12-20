@@ -6,7 +6,7 @@
  
 body {
 	background: white;
-	font-family: "Georgia", "Bookman Old Style", serif;
+	font-family: "Helvetica", "PingFang SC Medium", "Microsoft YaHei";
 	margin: 0;
 }
 
@@ -35,11 +35,8 @@ p {
 
 h1 {
 	margin: 0;
-	font-size: 165%;
-	padding: 0.35em;
-	color: #f0f0ff;
-	text-align: right;
-	font-variant: small-caps;
+	font-size: 200%;
+	text-align: left;
 }
 
 #layout-content {
