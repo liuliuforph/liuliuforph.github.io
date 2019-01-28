@@ -9,7 +9,20 @@ Member of the [http://wncg.org/  Wireless Networking and Communications Group] \
 Department of [http://www.ece.utexas.edu/ Electrical and Computer Engineering] \n
 The University of Texas at Austin \n
 
+
+
 ~~~
+
+
+~~~
+
+== Contact
+
+- Email: liuliuforph \[at\] gmail \[dot\] com \n
+- [https://scholar.google.com/citations?user=hP8aSTAAAAAJ&hl=en Google Scholar Profile]
+~~~
+
+
 
 == About Me
 I am a Ph.D student in the ECE department of The University of Texas at Austin.
@@ -71,15 +84,8 @@ ArXiv preprint arXiv:1805.08920, 2018. \[[https://arxiv.org/abs/1805.08920  Arxi
 -- We present a novel inference framework for convex empirical risk minimization, using approximate stochastic Newton steps. The proposed algorithm is based on the notion of finite differences and allows the approximation of a Hessian-vector product from first-order information. In theory, our method efficiently computes the statistical error covariance in M-estimation, both for unregularized convex learning problems and high-dimensional LASSO regression, without using exact second order information, or resampling the entire data set. In practice, we demonstrate the effectiveness of our framework on large-scale machine learning problems, that go even beyond convexity: as a highlight, our work can be used to detect certain adversarial attacks on neural networks.
 
 
+\n
 
 \n
 \n
-
-~~~
-
-== Contact
-
-- Email: liuliuforph \[at\] gmail \[dot\] com \n
-- [https://scholar.google.com/citations?user=hP8aSTAAAAAJ&hl=en Google Scholar Profile]
-~~~
 
