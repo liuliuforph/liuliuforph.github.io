@@ -2,7 +2,7 @@
 = Liu Liu
 
 ~~~
-{}{img_left}{./photo-me.jpg}{photo}{200px}{200px}{}
+{}{img_left}{./photo-me.jpg}{photo}{200px}{295px}{}
 
 Ph.D student \n
 Member of the [http://wncg.org/  Wireless Networking and Communications Group] \n
@@ -14,6 +14,18 @@ The University of Texas at Austin \n
 ~~~
 
 
+
+
+
+== About Me
+I am a Ph.D student in the ECE department of The University of Texas at Austin.
+I am fortunately advised by [http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html Prof. Constantine Caramanis] in the 
+[http://wncg.org/  Wireless Networking and Communications Group].
+My research interests are in theoretical machine learning, optimization and high dimensional statistics.
+I'm also interested in real-world data science and have spent some time at tech companies and financial firms as research intern.
+
+Before moving to Austin, I received the B.E. degree from Department of Electronic Engineering, Tsinghua University, Beijing, China, in 2016.
+
 ~~~
 
 == Contact
@@ -22,16 +34,6 @@ The University of Texas at Austin \n
 - [https://scholar.google.com/citations?user=hP8aSTAAAAAJ&hl=en Google Scholar Profile]
 ~~~
 
-
-
-== About Me
-I am a Ph.D student in the ECE department of The University of Texas at Austin.
-I am fortunately advised by [http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html Prof. Constantine Caramanis].
-My research interests are in theoretical machine learning, optimization and high dimensional statistics.
-
-Before moving to Austin, I received the B.E. degree from Department of Electronic Engineering, Tsinghua University, Beijing, China, in 2016.
-
-\n
 
 ~~~
 {}{raw}
@@ -52,6 +54,25 @@ Before moving to Austin, I received the B.E. degree from Department of Electroni
 
 
 
+*Robust compressed sensing of generative models *\n
+Ajil Jalal, *Liu Liu*, Alexandros G Dimakis, Constantine Caramanis.\n
+NeurIPS 2020. \[[https://arxiv.org/abs/2006.09461 Arxiv Link]\]
+- *See abstract*
+-- The goal of compressed sensing is to estimate a high dimensional vector from an underdetermined system of noisy linear equations. In analogy to classical compressed sensing, here we assume a generative model as a prior, that is, we assume the vector is represented by a deep generative model G: R^k --> R^n. Classical recovery approaches such as empirical risk minimization (ERM) are guaranteed to succeed when the measurement matrix is sub-Gaussian. However, when the measurement matrix and measurements are heavy-tailed or have outliers, recovery may fail dramatically. In this paper we propose an algorithm inspired by the Median-of-Means (MOM). Our algorithm guarantees recovery for heavy-tailed data, even in the presence of outliers. Theoretically, our results show our novel MOM-based algorithm enjoys the same sample complexity guarantees as ERM under sub-Gaussian assumptions. Our experiments validate both aspects of our claims: other algorithms are indeed fragile and fail under heavy-tailed and/or corrupted data, while our approach exhibits the predicted robustness.
+
+\n
+
+
+*Robust Structured Statistical Estimation via Conditional Gradient Type Methods*\n
+Jiacheng Zhuo, *Liu Liu*, Constantine Caramanis.\n
+arXiv preprint arXiv:2007.03572, 2020. \[[https://arxiv.org/abs/2007.03572 Arxiv Link]\] 
+- *See abstract*
+-- Structured statistical estimation problems are often solved by Conditional Gradient (CG) type methods to avoid the computationally expensive projection operation. However, the existing CG type methods are not robust to data corruption. To address this, we propose to robustify CG type methods against Huber's corruption model and heavy-tailed data. First, we show that the two Pairwise CG methods are stable, ie, do not accumulate error. Combined with robust mean gradient estimation techniques, we can therefore guarantee robustness to a wide class of problems, but now in a projection-free algorithmic framework. Next, we consider high dimensional problems. Robust mean estimation based approaches may have an unacceptably high sample complexity. When the constraint set is a \ell_0  norm ball, Iterative-Hard-Thresholding-based methods have been developed recently. Yet extension is non-trivial even for general sets with O(d)  extreme points. For setting where the feasible set has O(poly(d)) extreme points, we develop a novel robustness method, based on a new condition we call the Robust Atom Selection Condition (RASC). When RASC is satisfied, our method converges linearly with a corresponding statistical error, with sample complexity that scales correctly in the sparsity of the problem, rather than the ambient dimension as would be required by any approach based on robust mean estimation.
+
+\n
+
+
+
 *Low Rank Matrix Regression under Heavy Tailed Distribution *\n
 *Liu Liu*, Tianyang Li, Constantine Caramanis.\n
 Submitted, 2019.
@@ -69,7 +90,7 @@ We demonstrate the effectiveness of our approach in sparse linear, logistic regr
 
 *High Dimensional Robust Sparse Regression*\n
 *Liu Liu*, Yanyao Shen, Tianyang Li, Constantine Caramanis.\n
-ArXiv preprint arXiv:1805.11643, 2018. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[./1805.11643.pdf  PDF]\] \[[./Simons_Lightning.pdf Slides]\]
+AISTATS 2020. \[[https://arxiv.org/abs/1805.11643  Arxiv Link]\] \[[./1805.11643.pdf  PDF]\] \[[./AISTATS_Slides.pdf Slides]\]
 - *See abstract*
 -- We provide a novel -- and to the best of our knowledge, the first -- algorithm for high dimensional sparse regression with constant fraction of corruptions in explanatory and/or response variables. Our algorithm recovers the true sparse parameters with sub-linear sample complexity, in the presence of a constant fraction of arbitrary corruptions. Our main contribution is a robust variant of Iterative Hard Thresholding. Using this, we provide accurate estimators: when the covariance matrix in sparse regression is identity,  our error guarantee is near information-theoretically optimal. We then deal with robust sparse regression with unknown structured covariance matrix. We propose a filtering algorithm which consists of a novel randomized outlier removal technique for robust sparse mean estimation that may be of interest in its own right: the filtering algorithm is flexible enough to deal with unknown covariance. Also, it is orderwise more efficient computationally than the ellipsoid algorithm. Using sub-linear sample complexity, our algorithm achieves the best known (and first) error guarantee. 
 We demonstrate the effectiveness on large-scale sparse regression problems with arbitrary corruptions.
@@ -78,7 +99,7 @@ We demonstrate the effectiveness on large-scale sparse regression problems with 
 
 *Statistical inference using SGD*\n
 Tianyang Li, *Liu Liu*, Anastasios Kyrillidis, Constantine Caramanis.\n
-Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] \[[https://arxiv.org/pdf/1705.07477.pdf  PDF]\]
+AAAI 2018. \[[https://arxiv.org/abs/1705.07477  Arxiv Link]\] \[[https://arxiv.org/pdf/1705.07477.pdf  PDF]\]
 - *See abstract*
 -- We present a novel method for frequentist statistical inference in M-estimation problems, based on stochastic gradient descent (SGD) with a fixed step size: we demonstrate that the average of such SGD sequences can be used for statistical inference, after proper scaling. An intuitive analysis using the Ornstein-Uhlenbeck process suggests that such averages are asymptotically normal. From a practical perspective, our SGD-based inference procedure is a first order method, and is well-suited for large scale problems. To show its merits, we apply it to both synthetic and real datasets, and demonstrate that its accuracy is comparable to classical statistical methods, while requiring potentially far less computation.
 
