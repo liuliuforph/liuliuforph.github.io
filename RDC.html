@@ -26,7 +26,12 @@
 <h2>Robustness for high dimensional statistical problems</h2>
 <p>The past decade has seen successful extensions of M-estimation to the high dimensional setting with sparsity, e.g., using Lasso. Yet sparse modeling in high dimensions is NP-hard in the worst case. Thus theoretical sparse recovery guarantees for most computationally tractable approaches rely on strong assumptions on the probabilistic models of the data, such as sub-Gaussianity. </p>
 <p>Meanwhile, statistical estimation with heavy tailed outliers or even arbitrary corruptions has long been a focus in robust statistics. But heavy-tails and arbitrary corruptions in the data violate the assumptions required for convergence of the usual algorithms. A central question then, is what assumptions are sufficient to enable efficient and robust algorithms for high dimensional M-estimation under heavy tails or arbitrary corruption.</p>
-<p>In this line of research, we define a natural condition we call the Robust Descent Condition (RDC), and show that if a robust gradient estimator satisfies the RDC, then Robust Hard Thresholding, is guaranteed to obtain good statistical rates. We show that this RDC is a flexible enough concept to recover known results, and obtain new robustness results. We also discuss estimating a low rank matrix in multitask learning with heavy tailed distributions.</p>
+<p>In this line of research, we define a natural condition we call the Robust Descent Condition (RDC), and show that if a robust gradient estimator satisfies the RDC, then Robust Hard Thresholding, is guaranteed to obtain good statistical rates. 
+A key observation is the L2 norm requires bounds in all directions in
+high dimensions, yet   hard thresholding operator guarantees that the trajectory goes through sparse
+vectors, we only need to bound a small number of directions for
+robust gradients.
+We show that this RDC is a flexible enough concept to recover known results, and obtain new robustness results. We also discuss estimating a low rank matrix in multitask learning with heavy tailed distributions.</p>
 <table class="imgtable"><tr><td>
 <img src="RDC.png" alt="A geometric viewpoint" height="400px" />&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -34,7 +39,7 @@
 <br />
 <b>High Dimensional Robust M-Estimation: Arbitrary Corruption and Heavy Tails </b><br />
 <b>Liu Liu</b>, Tianyang Li, Constantine Caramanis.<br />
-ArXiv preprint arXiv:1901.08237, 2019. [<a href="http://arxiv.org/abs/1901.08237" target=&ldquo;blank&rdquo;>Arxiv Link</a>] [<a href="./1901.08237.pdf" target=&ldquo;blank&rdquo;>PDF</a>] </p>
+ArXiv preprint arXiv:1901.08237, 2019. [<a href="http://arxiv.org/abs/1901.08237" target=&ldquo;blank&rdquo;>Arxiv Link</a>] [<a href="./1901.08237.pdf" target=&ldquo;blank&rdquo;>PDF</a>] [<a href="./Oral_Defense_Slides.pdf" target=&ldquo;blank&rdquo;>Slides</a>]</p>
 </td>
 </tr>
 </table>

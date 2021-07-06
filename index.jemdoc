@@ -4,7 +4,7 @@
 ~~~
 {}{img_left}{./photo-me.jpg}{photo}{200px}{295px}{}
 
-Ph.D student \n
+Ph.D candidate\n
 Member of the [http://wncg.org/  Wireless Networking and Communications Group] \n
 Department of [http://www.ece.utexas.edu/ Electrical and Computer Engineering] \n
 The University of Texas at Austin \n
@@ -18,7 +18,7 @@ The University of Texas at Austin \n
 
 
 == About Me
-I am a Ph.D student in the ECE department of The University of Texas at Austin.
+I am a Ph.D candidate in the ECE department of The University of Texas at Austin.
 I am fortunately advised by [http://users.ece.utexas.edu/~cmcaram/constantine_caramanis/Home.html Prof. Constantine Caramanis] in the 
 [http://wncg.org/  Wireless Networking and Communications Group].
 My research interests are in theoretical machine learning, optimization and high dimensional statistics.
@@ -30,7 +30,7 @@ Before moving to Austin, I received the B.E. degree from Department of Electroni
 
 == Contact
 
-- Email: liuliuforph \[at\] gmail \[dot\] com \n
+- Email: leonardoliuliu \[at\] outlook \[dot\] com \n
 - [https://scholar.google.com/citations?user=hP8aSTAAAAAJ&hl=en Google Scholar Profile]
 ~~~
 
@@ -81,7 +81,7 @@ Submitted, 2019.
 
 *High Dimensional Robust M-Estimation: Arbitrary Corruption and Heavy Tails *\n
 *Liu Liu*, Tianyang Li, Constantine Caramanis.\n
-ArXiv preprint arXiv:1901.08237, 2019. \[[http://arxiv.org/abs/1901.08237 Arxiv Link]\] \[[./1901.08237.pdf PDF]\] 
+ArXiv preprint arXiv:1901.08237, 2019. \[[http://arxiv.org/abs/1901.08237 Arxiv Link]\] \[[./1901.08237.pdf PDF]\] \[[./Oral_Defense_Slides.pdf Slides]\]
 - *See abstract*
 -- We consider the problem of sparsity-constrained $M$-estimation when both {\em explanatory and response} variables have heavy tails (bounded 4-th moments), or a fraction of arbitrary corruptions. We focus on the $k$-sparse, high-dimensional regime where the number of variables $d$ and the sample size $n$ are related through $n \sim k \log d$. We define a natural condition we call the Robust Descent Condition (RDC), and show that if a gradient estimator satisfies the RDC, then Robust Hard Thresholding (IHT using this gradient estimator), is guaranteed to obtain good statistical rates. The contribution of this paper is in showing that this RDC is a flexible enough concept to recover known results, and obtain new robustness results. Specifically, new results include: (a) For $k$-sparse high-dimensional linear- and logistic-regression with heavy tail (bounded 4-th moment) explanatory and response variables, a linear-time-computable median-of-means gradient estimator satisfies the RDC, and hence Robust Hard Thresholding is minimax optimal; (b) When instead of heavy tails we have $O(1/\sqrt{k}\log(nd))$-fraction of arbitrary corruptions in explanatory and response variables, a near linear-time computable trimmed gradient estimator satisfies the RDC, and hence Robust Hard Thresholding is minimax optimal.
 We demonstrate the effectiveness of our approach in sparse linear, logistic regression, and sparse precision matrix estimation on synthetic and real-world US equities data.
