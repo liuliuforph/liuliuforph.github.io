@@ -22,6 +22,7 @@ I received the B.E. degree in the Department of Electronic Engineering of Tsingh
 
 - Email: leonardoliuliu \[at\] outlook \[dot\] com or leonliuliu \[at\] tencent \[dot\] com \n
 - [https://scholar.google.com/citations?user=hP8aSTAAAAAJ&hl=en Google Scholar Profile]
+
 ~~~
 
 
@@ -48,6 +49,18 @@ I am looking for highly motivated research interns in Machine Learning Center at
 
 
 {{<div class="mktree" id="tree1">}}
+
+
+
+
+*Robust Imitation Learning from Corrupted Demonstrations*\n
+*Liu Liu*, Ziyang Tang, Lanqing Li, Dijun Luo.\n
+arXiv preprint arXiv:2201.12594, 2022. \[[https://arxiv.org/abs/2201.12594 Arxiv Link]\] 
+- *See abstract*
+-- We consider offline Imitation Learning from corrupted demonstrations where a constant fraction of data can be noise or even arbitrary outliers. Classical approaches such as Behavior Cloning assumes that demonstrations are collected by an presumably optimal expert, hence may fail drastically when learning from corrupted demonstrations. We propose a novel robust algorithm by minimizing a Median-of-Means (MOM) objective which guarantees the accurate estimation of policy, even in the presence of constant fraction of outliers. Our theoretical analysis shows that our robust method in the corrupted setting enjoys nearly the same error scaling and sample complexity guarantees as the classical Behavior Cloning in the expert demonstration setting. Our experiments on continuous-control benchmarks validate that our method exhibits the predicted robustness and effectiveness, and achieves competitive results compared to existing imitation learning methods.
+
+\n
+
 
 
 
